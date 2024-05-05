@@ -1,4 +1,8 @@
 body {
     background-color: #61122f;
-    font-family: 'Oxygen';
+    color: black;
+    font-family: oxygen, 'Sans';
+}
+h1 {
+    text-align: center;
 }
