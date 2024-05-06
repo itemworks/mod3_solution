@@ -1,8 +1,41 @@
 body {
-    background-color: #61122f;
+    background-color: #7c154e85;
     color: black;
     font-family: oxygen, 'Sans';
 }
-h1 {
+h2 {
     text-align: center;
+    margin-bottom: 20px;
+}
+#header-nav {
+    background-color: grey;
+    border-top: none; /* add this rule */
+    border: 2px solid rgb(0, 0, 0); /* keep the original border-bottom style */
+    border-radius:0;
+   height: 60px;
+}
+
+.container {
+    position: absolute;
+}
+
+#navbar-title, #navbar-title h1 {
+    font-family: courier;
+    color: black;
+    font-weight: bold;
+}
+
+ #p1,#p2, #p3 {
+    background-color: grey;
+    text-align: center;
+    
+}
+#burnt, #burnt2, #burnt3 {
+    font-family: 'Sans';
+    font-weight: bold;
+}
+h1 {
+    margin: 0;
+    margin-top: 7px;
+    font-size: 175%;
 }
