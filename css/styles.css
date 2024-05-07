@@ -1,5 +1,5 @@
 body {
-    background-color: #7c154e85;
+    background-color: #e0c7d5c5;
     color: black;
     font-family: oxygen, 'Sans';
 }
@@ -24,17 +24,49 @@ h2 {
     font-weight: bold;
 }
 
+p {
+    margin: 0px 0px 20px 0px;
+    height: 1000px;
+}
+
  #p1,#p2, #p3 {
     background-color: grey;
     text-align: center;
-    
 }
-#burnt, #burnt2, #burnt3 {
+
+/*title colors are called burnt*/
+#burnt3 {
     font-family: 'Sans';
     font-weight: bold;
+    background-color: rgb(84, 35, 130);
+}
+#burnt2 {
+    font-family: 'Sans';
+    font-weight: bold;
+    background-color: rgba(137, 43, 226, 0.467);
+}
+#burnt {
+    font-family: 'Sans';
+    font-weight: bold;
+    background-color: rgba(90, 24, 106, 0.586);    
 }
 h1 {
     margin: 0;
     margin-top: 7px;
     font-size: 175%;
+}
+
+/*Making nav bar collapse testing*/
+@media (max-width: ${grid-float-breakpoint}) {
+    #header-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgb(161, 23, 23);
+    }
+}
+.navbar-scroll-hide {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
 }
