@@ -1,10 +1,13 @@
 body {
     background-color: #e0c7d5c5;
     color: black;
-    font-family: oxygen, 'Sans';
+    font-family: "Oxygen", 'Sans';
 }
 h2 {
     margin-bottom: 20px;
+    font-family: courier;
+    font-weight: bold;
+    text-decoration: underline;
 }
 #header-nav {
     background-color: grey;
@@ -26,12 +29,15 @@ h2 {
 
 p {
     margin: 0px 0px 20px 0px;
-    height: 1000px;
+    text-indent: 4px;
+    padding: 10px;
 }
 
  #p1,#p2, #p3 {
     background-color: grey;
     text-align: center;
+    height: 1000px;
+    margin: 15px;
 }
 
 /*title colors are called burnt*/
@@ -48,7 +54,7 @@ p {
 #burnt {
     font-family: 'Sans';
     font-weight: bold;
-    background-color: rgba(90, 24, 106, 0.586);    
+   /* background-color: rgba(90, 24, 106, 0.586); */   
 }
 h1 {
     margin: 0;
@@ -69,4 +75,14 @@ h1 {
 .navbar-scroll-hide {
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
+}
+
+/*I am still a noob so reg browser media quieries go here*/
+
+/* for mobile view drop down menu */
+
+@media (min-width: 577px) {
+    .navbar-toggle {
+        display: none;
+    }
 }
